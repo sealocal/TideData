@@ -32,8 +32,8 @@ function wrapLocationsInAnchorTags(locationNamesNode) {
 function writeLocationsToHTML() {
 	var regionData = getSelectedRegion();
 
-    //Find LOCATION elements in the XML document tree
-    var locationNames = regionData.getElementsByTagName("LOCATION");
+  //Find LOCATION elements in the XML document tree
+  var locationNames = regionData.getElementsByTagName("LOCATION");
 
 	var numColumns = 1;
 	//if the number of LOCATION elements is less than or equal to 24...
@@ -49,7 +49,7 @@ function writeLocationsToHTML() {
 	} else {
 		numColumns = 4;
 	}
-	
+
 	//jQuery CSS manipulation: changes percentage width of div.columns
 	$(document).ready( function() {
 		$('.column').css("width", 100 / numColumns + "%");
@@ -59,7 +59,7 @@ function writeLocationsToHTML() {
 	//for each element i, the stored string of the location name will be written
 	//inside an an anchor tag with the strAndAnch function
 	//the location name is then placed in a div.column with
-	//width of 25%, 33%, 50%, or 100% (1, 2, 3, or 4 columns)	
+	//width of 25%, 33%, 50%, or 100% (1, 2, 3, or 4 columns)
 	for (i = 0; i < numColumns; i++) {
 		document.write("<div class=\"column\">")
 		for (j = locationNames.length / numColumns * i; j < locationNames.length / numColumns * (i + 1); j++) {
