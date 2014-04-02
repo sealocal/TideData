@@ -57,7 +57,7 @@ function writeLocationsToHTML() {
 
 	//Traverse the locationNames:
 	//for each element i, the stored string of the location name will be written
-	//inside an an anchor tag with the strAndAnch function
+	//inside an an anchor tag with the wrapLocationsInAnchorTags function
 	//the location name is then placed in a div.column with
 	//width of 25%, 33%, 50%, or 100% (1, 2, 3, or 4 columns)
 	for (i = 0; i < numColumns; i++) {
