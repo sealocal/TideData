@@ -10,10 +10,10 @@ This app allows users to select a US Coastal location and a date; the app displa
 This app was built using HTML/CSS/JavaScript with a dash of PHP.
 
 ##Future
-The TideData repo will be converted to a Rails app, found at the [tide_data_rails](http://github.com/sealocal/tide_data_rails) repo.
+The TideData repo will be converted to a Rails app, found at the [tide-data-rails](http://github.com/sealocal/tide-data-rails) repo.
 
 ##Test Results
 [Load Test Results](http://loadimpact.com/test/view/1600901)
 
 
-&copy; Copyright 2014 Michael Taylor
+<strong>&copy; Copyright 2014 Michael Taylor</strong>
