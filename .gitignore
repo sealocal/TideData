@@ -1,2 +1,37 @@
 #Ignore VBS scripts
 /tide_data_vbs
+
+#Ignore most states' data
+/Alabama
+/Alaska
+/Bahamas
+/Bermuda Islands
+/British Columbia
+/Connecticut
+/Cuba
+/Delaware
+/Florida
+/Georgia
+/Haiti and Dominican Republic
+/Jamaica
+/Lesser Antilles & Virgin Islands
+/Louisiana
+/Maine
+/Maryland
+/Massachusetts
+/Mississippi
+/New Hampshire
+/New Jersey
+/New York
+/North Carolina
+/Oregon
+/Pacific Islands
+/Panama
+/Pennsylvania
+/Puerto Rico
+/Rhode Island
+/Ruby_Files
+/South Carolina
+/Texas
+/Virginia
+/Washington DC
